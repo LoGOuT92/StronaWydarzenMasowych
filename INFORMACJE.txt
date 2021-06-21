@@ -1,0 +1,13 @@
+Na stronie jest:
+Obsługa logowania ( ze sprawdzeniem czy istnieje takie konto)
+Rejestracja (formularz) z wysłaniem danych do bazy danych
+Formularz kontaktowy z wysłaniem do bazy który po wyslaniu pokaże nam informacje jakie wpisalismy
+Użytkownik: Login
+Hasło: haslo
+ma tak jak by uprawnienia administratora, może usuwać użytkowników po wpisaniu ID w specjalne pole na stronie index.
+Baza danych zawiera tabele:
+Użytkownicy - info o użytkownikach serwisu + tutaj bedą dodawane nowe konta z forumularza rejestracji
+BIlety - tutaj są bilety + ceny biletów
+Kupno - tabela pośredniczaca pomiedzy Biletami a userami
+formularz - tutaj przysylane są formularze od userów
++ jest możliwosc wgrania plików na serwer w folderze files.

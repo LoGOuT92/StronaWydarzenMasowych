@@ -1,0 +1,251 @@
+body{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+    vertical-align: baseline;
+    font-family: alien;
+    line-height: 1;
+   
+}
+
+
+* {
+    box-sizing: border-box;
+    
+  }
+
+  @font-face
+
+
+{
+
+font-family: alien;
+
+src:url(alien.ttf);
+
+}
+#main{
+    float:left;
+    width:100%;
+    text-align:center;
+    background-color:#ffffff;
+    padding-top:5%;
+  }
+
+#logo{
+    float:left;
+    width:8.1%;
+    height: 9.8rem;
+    text-align:center;
+    background-image: url(obrazki/black.svg);
+    padding:15px;
+    margin-bottom: 10px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 20px;
+}
+
+#imag{
+    background-image: url(obrazki/white.svg);
+    z-index: 1;
+    width: 14.5%;
+    height: 17.7rem;
+    position: absolute;
+     top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#text{
+    width:70%;
+    text-align:center;
+    background-color:#f7fdfd;
+    margin: 0 auto;
+    padding: 5px;
+}
+.nav
+{
+    float:left;
+    text-align:center;
+    clear: both;
+    height: 50px;
+    padding: 11px;
+    left: 0rem;
+    font-family: alien;
+    letter-spacing: .05rem;
+    font-size: 1.2rem;
+    transition: .2s all ease-in-out;
+    text-transform: uppercase;
+    color: White;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 20px;
+}
+#a1
+{
+    width:13%;
+    background-color: #000000;
+    top: 40%;
+    padding-right: 80px;
+    padding-top: 16px;
+    margin-top: 90px;
+}
+#a1:hover{
+    width:14%;
+    background-color: rgb(4, 0, 255);
+}
+#a2
+{
+    width:11%;
+    background-image: url(obrazki/img2.gif);
+    top: 47.1%;
+    padding-right: 45px;
+    padding-top: 16px;
+}
+#a2:hover{
+    width:14%;
+    background-color:#f01010;
+}
+#a3
+{
+    width:12%;
+    background-color:#000000;
+    top: 54.1%;
+    padding-right: 60px;
+    padding-top: 16px;
+}
+#a3:hover{
+    width:13%;
+    background-color:#c709f7;
+}
+#a4
+{
+    width:9%;
+    background-color:#000000;
+    top: 61.1%;
+    padding-right: 15px;
+    padding-top: 16px;
+}
+#a4:hover{
+    width:10%;
+    background-color:#3cf716;
+}
+#a5
+{
+    width:11%;
+    background-color:#000000;
+    top: 68.1%;
+    padding-right: 50px;
+    padding-top: 16px;
+}
+#a5:hover{
+    width:12%;
+    background-color:#00ffff;
+}
+a{
+    text-decoration: none;
+    color: transparent;
+}
+
+.artist
+{
+    width: 312px;
+    height: 312px;
+    display: inline-block;
+    margin: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: 1px solid rgb(255, 0, 0);
+ 
+}
+
+#Garrix {
+    background-image: url("obrazki/garrix.jpg");
+}
+#Tiesto {
+    background-image: url("obrazki/tiesto.png");
+}
+#Hardwell {
+    background-image: url("obrazki/hardwell.jpg");
+}
+#CalvinHarris {
+    background-image: url("obrazki/harris.png");
+}
+
+
+
+#Garrix:hover
+{   
+    transition: .2s all ease-in-out;
+    background-color: #0af550;
+    filter: brightness(50%);
+    opacity: 1.0;
+    
+}
+
+#Tiesto:hover
+{   
+    background-color: #04b5fc;
+    transition: .2s all ease-in-out;
+    filter: brightness(50%);
+    opacity: 1.0;
+}
+
+#Hardwell:hover
+{   
+    background-color: #0aff54;
+    transition: .2s all ease-in-out;
+    filter: brightness(50%);
+    opacity: 1.0;
+}
+
+#CalvinHarris:hover
+{   
+    background-color: #f18e0b;
+    transition: .2s all ease-in-out;
+    filter: brightness(50%);
+    opacity: 1.0;
+}
+
+
+#overlay {
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 2;
+    cursor: pointer;
+  }
+
+  #myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+  }
+  
+  #myBtn:hover {
+    background-color: #555;
+  }
+  #go{
+    background-color: rgb(0, 0, 0);
+     margin-left: 96%;
+     color: white;
+     border: none;
+   }

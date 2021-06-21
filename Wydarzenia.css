@@ -1,0 +1,189 @@
+body{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+    vertical-align: baseline;
+    font-family: alien;
+}
+
+h1{
+
+    font-size: 2.5rem;
+    letter-spacing: 0.05rem;
+}
+h3{
+    font-size: 1.3rem;
+    letter-spacing: 0.05rem;
+
+
+}
+
+
+body {
+	line-height: 1;
+}
+
+@font-face
+
+
+{
+
+font-family: alien;
+
+src:url(alien.ttf);
+
+}
+
+
+
+.cont{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+#top-div
+{
+    width: 100%;
+    background-image: url(obrazki/static-video.gif);
+    height: 100px;
+}
+.main-menu
+{
+    float: left;
+    width: 100%;    
+    background-image: url(obrazki/static-video.gif);
+}
+#cont-menu
+{
+    width: 60%;
+    height: 30px;
+    background-color: rgb(0, 0, 0);
+    margin: 0 auto;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+}
+
+.nav
+{
+    float: left;
+    text-align:center;
+    width: 20%;
+    height: 30px;
+    transition: .2s all ease-in-out;
+    text-transform: uppercase;
+    font-family: alien;
+
+}
+.ikona-wyd
+{
+    float: left;
+    width: 30%;
+    height: 600px;
+    background-color: rgb(0, 255, 55);
+    margin: 20px;
+    filter: brightness(50%);
+    color: white;
+    
+}
+#a1
+{
+    background-color:rgb(209, 204, 204);
+    color: rgb(0, 0, 0);
+   
+}
+#a1:hover{
+    background-color: rgb(45, 0, 245);
+    height: 60px;
+
+}
+#a2
+{
+    background-color:rgb(209, 204, 204);
+    color: rgb(0, 0, 0);
+ 
+}
+#a2:hover{
+    background-color:#f01010;
+    height: 45px;
+
+}
+#a3
+{
+    background-color:rgb(209, 204, 204);
+    color: rgb(0, 0, 0);
+   
+}
+#a3:hover{
+    background-color:#c709f7;
+    height: 55px;
+}
+
+#a4
+{
+    background-image: url(obrazki/img2.gif);
+    color: white;
+  
+}
+#a4:hover{
+    height: 40px;
+
+
+}
+#a5
+{
+    background-color:rgb(209, 204, 204);
+    color: rgb(0, 0, 0);
+   
+}
+#a5:hover{
+    background-color:#00ffff;
+    height: 50px;
+
+}
+a{
+    text-decoration: none;
+    color: transparent;
+}
+#wydarzenie1
+{
+    background-color: rgb(0, 255, 76);
+}
+#wydarzenie2
+{
+    background-color: rgb(201, 255, 4);
+}
+#wydarzenie3
+{
+    background-color: rgb(0, 140, 255);
+}
+#wydarzenie1:hover
+{
+    transition: .2s all ease-in-out;
+    text-transform: uppercase;
+    filter: brightness(100%);
+}
+#wydarzenie2:hover
+{
+    transition: .2s all ease-in-out;
+    text-transform: uppercase;
+    filter: brightness(100%);
+}
+#wydarzenie3:hover
+{
+    transition: .2s all ease-in-out;
+    text-transform: uppercase;
+    filter: brightness(100%);
+}
+#przyciski2
+{
+    background-image: url(obrazki/img2.gif);
+    border: none;
+    color: white;
+    margin:10px;
+
+}
+
+

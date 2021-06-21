@@ -1,0 +1,161 @@
+body{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+    vertical-align: baseline;
+    font-family: alien;
+    line-height: 1;
+    background-image: url(obrazki/static-video.gif);
+}
+
+
+
+
+.error1
+{
+  color: white;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#error1
+{
+  color: white;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.kafel
+{
+    width: 10%;
+    float: left;
+    height: 1rem;
+    z-index: 1;
+    position: relative;
+    top: 85%;
+    left: 15.5%;
+    
+}
+#grey
+{
+    background-color: #cbcbcb;
+}
+#yellow
+{
+    background-color: #ff0;
+}
+#blue
+{
+    background-color: #0cedf5;
+}
+#green
+{
+    background-color: #3cf716;
+}
+#purple
+{
+    background-color: #f0f;
+}
+#red
+{
+    background-color: #f01010;
+}
+#blue2
+{
+    background-color: #3702f7;
+}
+#klocki{
+   margin-top: 2%;
+}
+
+.wyloguj{
+  background-color: tomato;
+  height: 50px;
+  width: 10%;
+  float: right;
+  color: rgb(255, 255, 255);
+  text-align: justify;
+  cursor: pointer;
+  padding-top: 15px;
+  padding-left: 10px;
+  border-radius: 4px;
+  margin-right: 44%;
+  text-align: center;
+  margin-top: 2%;
+
+}
+.wyloguj:hover {
+  background-image: url(obrazki/img2.gif);
+  color: white;
+}
+
+#container{
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: red;
+}
+#logowanie1
+{
+  width: 50%;
+
+  background-color: tomato;
+  position: absolute;
+  top: 25%;
+  left: 25%;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 4px;
+  color: white;
+}
+
+input[type=submit]{
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin-top: 5%;
+  cursor: pointer;
+  border-radius: 4px;
+  font-family: alien;
+}
+input[type=submit]:hover {
+  background-image: url(obrazki/img2.gif);
+  color: white;
+}
+
+input[type=text] {
+  color: rgb(255, 0, 0);
+}
+input[type=password] {
+  color: rgb(9, 255, 0);
+}
+
+input[type=text]:focus {
+  border: 3px solid rgb(0, 47, 255);
+  background-color: rgb(106, 171, 209);
+  color: rgb(9, 255, 0);
+}
+input[type=password]:focus {
+  border: 3px solid rgb(255, 0, 0);
+  background-color: rgb(207, 86, 64);
+  color: rgb(9, 255, 0);
+}
+
+* {
+  box-sizing: border-box;
+  
+}
+
+@font-face
+
+
+{
+
+font-family: alien;
+
+src:url(alien.ttf);
+
+}

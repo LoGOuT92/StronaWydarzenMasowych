@@ -1,0 +1,169 @@
+body{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+    vertical-align: baseline;
+    font-family: alien;
+    line-height: 1;
+    background-color: rgb(238, 238, 238);
+}
+@font-face
+
+
+{
+
+font-family: alien;
+
+src:url(alien.ttf);
+
+}
+
+
+
+#cont-menu
+{
+    width: 60%;
+    height: 30px;
+    background-color: rgb(0, 0, 0);
+    margin: 0 auto;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+}
+
+.nav
+{
+    float: left;
+    text-align:center;
+    width: 20%;
+    height: 30px;
+    transition: .2s all ease-in-out;
+    text-transform: uppercase;
+    font-family: alien;
+
+}
+#a1
+{
+    background-color:#000000;
+    color: white;
+}
+#a1:hover{
+    background-color: rgb(45, 0, 245);
+    height: 60px;
+
+}
+#a2
+{
+    background-color:#000000;
+    color: white;
+}
+#a2:hover{
+    background-color:#f01010;
+    height: 45px;
+
+}
+#a3
+{
+    background-color:#000000;;
+    color: white;
+}
+#a3:hover{
+    background-color:#c709f7;
+    height: 55px;
+}
+
+#a4
+{
+    background-color:#000000;;
+    color: white;
+}
+#a4:hover{
+    height: 40px;
+    background-color:#3cf716;
+
+}
+#a5
+{
+    background-image: url(obrazki/img2.gif);
+    color: white;
+}
+#a5:hover{
+    height: 50px;
+
+}
+a{
+    text-decoration: none;
+    color: transparent;
+}
+
+#kontakt
+{
+    width: 72%;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+input[type=text], select, textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid rgba(51, 218, 18, 0.692);
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+  }
+  
+
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+    letter-spacing: 0.1rem;
+  }
+  
+
+  input[type=submit] {
+    background-color: rgb(255, 0, 0);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+  }
+
+  .container {
+    border-radius: 5px;
+   
+    padding: 20px;
+  }
+  
+
+  .col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+    
+  }
+
+  .col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+    
+  }
+  
+
+  .Pole :after {
+    content: "";
+    display: table;
+    clear: both;
+    
+  }
+  
+  
+  @media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
